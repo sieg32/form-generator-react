@@ -1,0 +1,64 @@
+
+.textQuestion{
+    margin: 10px 0;
+    padding: 20px;
+
+    width: calc(100% - 40px);
+    background-color: #86A789;
+    border: 1px solid black;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top input{
+    border: 1px solid black;
+}
+.queType{
+    width: 30%;
+    height: 40px;
+   
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+.question ,.description, .answer{
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 90%;
+    min-height: 30px;
+    margin: 10px;
+    resize: none;
+}
+
+.value{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    margin:10px;
+}
+.value input{
+    width: 90%;
+    height:99%;
+}
+
+
+
+
+
+

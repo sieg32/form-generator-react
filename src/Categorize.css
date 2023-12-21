@@ -1,0 +1,77 @@
+
+
+.categorizePanel{
+    margin: 10px 0;
+    padding: 20px;
+    font-family: Inter;
+    background-color: #86A789;
+    width: calc(100% - 40px);
+   
+    border: 1px solid black;
+    height: fit-content;
+    border-radius: 10px;
+
+
+   display: flex;
+   flex-direction: column;
+}
+.categorizePanel h3{
+    margin: 5px 10px;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+
+
+
+.category {
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+}
+
+.items{
+    
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.Btn{
+
+    width: 50%;
+
+}
+
+.itemInput{
+    min-width: 60%;
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+    height: 25px;
+     
+
+}
+
+
+.belongs{
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.Btn{
+    margin: 5px 20px;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+}
+.Btn:hover{
+    cursor: pointer;
+}

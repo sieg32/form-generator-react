@@ -1,0 +1,50 @@
+
+.comprehension{
+    
+    margin: 10px 0;
+    padding: 20px;
+    font-family: Inter;
+    width: calc(100% - 40px);
+    background-color: #86A789;
+    border: 1px solid black;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+
+.questions{
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.options{
+    margin: 10px;
+    width: 70%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.optionBtn{
+    width: 30%;
+    margin: 0 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+}
+.questionBtn{
+    width: 50%;
+    margin: 10px;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+}
+.optionBtn:hover, .questionBtn:hover{
+    cursor: pointer;
+
+}
